@@ -1,0 +1,18 @@
+sysmon.exe -accepteula -i sysmonconfig-export 
+
+Verifyt
+sysmon.exe -c
+
+file Loc: prog(x86)\ossec\ossec.conf
+ 
+<localfile>
+<log_format>eventchannel</log_format>
+<location>Microsoft-Windows-Sysmon/Operational</location>
+</localfile>
+
+
+Restart 
+win+r ==> service.msc
+net stop wazuh-agent && net start wazuh-agent
+
+
