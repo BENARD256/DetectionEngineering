@@ -2,3 +2,7 @@ Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.12.0
 
 Starting Service
 NET START WazuhSvc
+
+
+Agent key information for '050' is: 
+MDUwIGFjY291bnRzX3d5Y2xpZmZlbSBhbnkgMjg1MmRiYWU5YWM4MjUyYWFhZDhjZTlkMDQ0NTY0ZjgxZWNjYTRhMjIzOWIyYzMxYTk5NWYyNjhkOTRmYjczYw==
